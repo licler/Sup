@@ -1,7 +1,8 @@
-//Подключаем файлы стилей страниц и элементов///////////////////////////////////////////////////////////////////////////////////////////////
-@import 'mixins';
-@import "fonts";
-@import "global";
-@import "header";
-@import "footer";
+@import 'vars';
+@import 'fonts';
+@import 'reset';
+@import 'libs';
+@import 'global';
+@import 'header';
+@import 'footer';
 

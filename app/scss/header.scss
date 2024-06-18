@@ -1,0 +1,10 @@
+.header {
+   background-image: url("../images/header_bg.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+   &__top {
+      display: flex;
+      align-items: center;
+   }
+}
