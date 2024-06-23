@@ -34,10 +34,11 @@ ul, li{
     padding: 0;
     list-style: none;
 }
-// img {
-//     width: 100%;
-//     display: block;
-// }
+img {
+    // width: 100%;
+    // display: block;
+	object-fit: cover;
+}
 
 //Прижимаем футер к низу///////////////////////////////////////////////////////////////////////////////////////////////
 .wrapper{
