@@ -70,6 +70,14 @@
    cursor: pointer;
 }
 
+
+.header__btn:hover {
+   background-color: #B9C400;
+   color: #000;
+   border-color: #B9C400;
+   transition: all .3s;
+}
+
 .header__content {
    min-height: calc(100vh - 161px);
    display: flex;
