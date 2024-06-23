@@ -1,4 +1,4 @@
-//start section
+//start section info
 .info {
     background-image: url('../images/info_bg.jpg');
     background-repeat: no-repeat;
@@ -6,7 +6,7 @@
     background-position: center;
     position: relative;
     padding-top: 210px;
-    
+
 }
 
 .info::before {
@@ -26,9 +26,10 @@
     display: flex;
     gap: 80px;
     padding-top: 83;
-    margin-bottom: 65vh;
+    margin-bottom: 98vh;
     font-size: 18px;
     font-family: 'InterRegular';
+    font-weight: 400;
 }
 
 .info__top-text {
@@ -36,7 +37,7 @@
     color: #fff;
     padding-top: 245px;
     position: relative;
-    
+
 }
 
 .info__top-img {
@@ -87,6 +88,7 @@
     text-transform: uppercase;
     width: 215px;
 }
+
 .info__specs-list {
     width: 643px;
     border-top: 1px solid #fff;
@@ -97,14 +99,115 @@
     color: #fff;
     font-weight: 700;
 }
+
 .info__specs-item {
     display: flex;
     gap: 25px;
-    margin-bottom: 15px;
+    margin: 15px 0;
 }
+
 .info__specs-caption {
     width: 180px;
 }
+
 .info__specs-text {
     width: 440px;
 }
+
+//finish section info
+
+//start section buy
+
+.buy {
+    padding: 150px 0;
+}
+
+.buy__inner {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    font-weight: 400;
+    font-family: 'ComfortaaRegular';
+}
+
+.buy__content {
+    width: 502px;
+    color: #262C27;
+    position: relative;
+}
+
+.buy__content-title {
+    // width: 502px;
+    font-size: 60px;
+    color: #0093A1;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.buy__content-list {
+    margin-bottom: 50px;
+}
+
+.buy__content-item {
+    margin-bottom: 25px;
+}
+
+.buy__content-item:hover .buy__content-caption {
+    color: #0093A1;
+    transition: all .3s;
+}
+
+.buy__content-caption {
+    font-family: 'ComfortaaBold';
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.buy__content-text {
+    width: 292px;
+    font-size: 18px;
+    font-family: 'InterRegular';
+    font-weight: 400;
+}
+
+.buy__content-price {
+    content: "";
+    width: 201px;
+    height: 199px;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'InterBold';
+    position: absolute;
+    background-image: url('../images/star.svg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    bottom: 130px;
+}
+
+.buy__content-btn {
+    text-transform: uppercase;
+    color: #0093A1;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'ComfortaaBold';
+    background-color: transparent;
+    border: 2px solid #0093A1;
+    max-width: 484px;
+    width: 100%;
+    padding: 18px 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.buy__content-btn:hover {
+    background-color: #B9C400;
+    color: #000;
+    border-color: #B9C400;
+    transition: all .3s;
+}
+
+//finish section buy
