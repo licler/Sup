@@ -1,0 +1,67 @@
+//start footer
+.footer {
+    padding: 100px 0;
+   background-color: #262C27;
+   color: #fff;
+}
+
+.footer__top {
+   display: flex;
+   justify-content: space-between; 
+}
+.footer__form {
+    width: 500px;
+}
+.footer__title {
+    font-size: 60px;
+    font-weight: 400;
+    font-family: 'ComfortaaRegular';
+    margin-bottom: 37px;
+}
+.footer__input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    padding: 10px 0;
+    width: 100%;
+    margin-bottom: 57px;
+}
+.footer__input::placeholder {
+    font-size: 18px;
+    font-family: 'InterBold';
+    font-weight: 700;
+    
+}
+.footer__btn {
+    width: 193px;
+    height: 42px;
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'ComfortaaBold';
+    font-weight: 700;
+    color: #262C27;
+    margin-bottom: 97px;
+    border: none;
+}
+
+.footer__social--title {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'InterBold';
+    color: #fff;
+    margin-bottom: 28px;
+}
+.footer__gallery {
+}
+.footer__gallery-item {
+    gap: 0 52px;
+}
+.footer__menu-list {
+}
+.footer__menu-item {
+}
+
+
+//finish footer
