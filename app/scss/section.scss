@@ -67,7 +67,18 @@
     display: block;
     padding-top: 12px;
 }
-
+.popap__btn path {
+    transition: fill .3s ease;
+}
+.popap__btn:hover path {
+    fill: #B9C400;
+}
+// .popap__btn:hover circle {
+//     fill: #B9C400;
+// }
+.popap__btn:hover span {
+    color:#0093A1;
+}
 .info__btn {
     position: absolute;
     bottom: 0;
