@@ -127,18 +127,64 @@
         background-size: cover;
         top: -185px;
     }
+
     .buy__content-title {
         font-size: 48px;
     }
 
 }
 
-
 //end section buy
 
 //start technology
-@media (max-width:1150px) {}
+@media (max-width:1065px) {
+    .gallery__box {
+        flex-wrap: wrap;
+    }
 
+    .gallery__min {
+        margin: 0;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: auto auto;
+        width: 100%;
+    }
+
+    .gallery__text {
+        width: 100%;
+    }
+
+    .gallery__min-img {
+        width: 100%;
+        align-self: stretch;
+    }
+}
+
+@media (max-width:600px) {
+    .gallery__min {
+        padding: 20px 10px 20px;
+    }
+   .gallery__min::before {
+    border-radius: 200px 0 200px;
+    }
+}
+
+@media (max-width:415px) {
+   .gallery__min::before {
+    display: none;
+    }
+    .gallery__min {
+        gap: 10px;
+    }
+    
+}
+@media (max-width:320px) {
+    .title{
+        font-size: 28px;
+    }
+    .info__specs-item {
+        font-size: 18px;
+    }
+}
 //end technology
 
 
