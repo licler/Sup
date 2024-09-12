@@ -63,9 +63,12 @@
     }
 }
 
-@media (max-width:995px) {
+@media (max-width:960px) {
     .info__specs {
         display: block;
+    }
+    .info__top {
+        margin-bottom: 30vh;
     }
 }
 
@@ -137,6 +140,19 @@
 //end section buy
 
 //start technology
+@media (max-width:1216px) {
+    .gallery__max {
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: auto auto auto;
+        width: 100%;
+    }
+
+    .gallery__max-img {
+        width: 100%;
+        align-self: stretch;
+    }
+}
+
 @media (max-width:1065px) {
     .gallery__box {
         flex-wrap: wrap;
@@ -163,29 +179,95 @@
     .gallery__min {
         padding: 20px 10px 20px;
     }
-   .gallery__min::before {
-    border-radius: 200px 0 200px;
+
+    .gallery__min::before {
+        border-radius: 200px 0 200px;
+    }
+
+    .gallery__max {
+        margin-top: 50px;
+    }
+
+    .gallery_max-text {
+        font-size: 14px;
     }
 }
 
-@media (max-width:415px) {
-   .gallery__min::before {
-    display: none;
+@media (max-width:480px) {
+    .gallery__min::before {
+        display: none;
     }
-    .gallery__min {
+
+    .gallery__min .gallery__max {
         gap: 10px;
     }
-    
+    .technology__btn {
+        right: 50px;
+    }
+    .technology__title {
+        font-size: 40px;
+    }
 }
+
 @media (max-width:320px) {
-    .title{
+    .title {
         font-size: 28px;
     }
+
     .info__specs-item {
         font-size: 18px;
     }
 }
+
 //end technology
 
+// start footer
+@media (max-width:1225px) {
+    .footer__gallery-item {
+        width: 100%;
+        align-self: stretch;
+    }
 
+    @media (max-width:1000px) {
+        .footer__top {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .footer__logo {
+            order: -1;
+            margin-bottom: 50px;
+
+        }
+
+        .footer__gallery {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .footer__menu-list {
+            display: block;
+            text-align: center;
+        }
+
+        .footer__menu-item {
+            padding: 15px 0;
+        }
+
+        .footer__social--title {
+            text-align: center;
+        }
+    }
+
+    @media (max-width:410px) {
+        .footer__logo svg {
+            width: 90%;
+        }
+    }
+
+}
+
+
+
+// end footer
 // end media
