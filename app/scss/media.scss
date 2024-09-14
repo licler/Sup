@@ -80,11 +80,17 @@
     .info__top {
         margin-bottom: 18vh;
     }
+    .info__specs-text {
+        font-weight: 400;
+    }
 }
 
 @media (max-width:375px) {
     .info__specs-text {
         width: 200px;
+    }
+    .info__specs-title {
+        font-size: 42px;
     }
 }
 
